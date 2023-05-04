@@ -18,10 +18,10 @@ class UserFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_user, container, false)
 
-//        val btn = view.findViewById<Button>(R.id.button3)
+//        val btn = view.findViewById<Button>(R.id.user)
 //
 //        btn.setOnClickListener {
-//            findNavController().navigate(R.id.action_userFragment_to_placeholder2)
+//            findNavController().navigate(R.id)
 //        }
         return view
 

@@ -16,7 +16,7 @@
         android:title="Cart" />
 
     <item
-        android:id="UserBar"
+        android:id="@+id/UserBar"
         android:icon="@drawable/person_24"
         android:title="User" />
 </menu>

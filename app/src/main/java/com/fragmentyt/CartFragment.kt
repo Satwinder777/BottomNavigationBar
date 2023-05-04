@@ -18,11 +18,11 @@ class CartFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_cart, container, false)
 
-        val btn = view.findViewById<Button>(R.id.Cart)
-
-        btn.setOnClickListener {
-            findNavController().navigate(R.id.action_cartFragment_to_userFragment)
-        }
+//        val btn = view.findViewById<Button>(R.id.CartBar)
+//
+//        btn.setOnClickListener {
+//            findNavController().navigate(R.id.action_cartFragment_to_userFragment)
+//        }
         return view
 
     }}

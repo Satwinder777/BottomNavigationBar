@@ -26,7 +26,9 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/nav_menu"
-        android:background="?android:attr/windowBackground"/>
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/purple_200"
+        android:backgroundTint="#9873CC"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
